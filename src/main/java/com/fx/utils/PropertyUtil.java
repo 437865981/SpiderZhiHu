@@ -6,7 +6,7 @@ import java.util.Properties;
 
 /**
  * 属性文件加载工具类
- * @author lc
+ * @author fx
  */
 public class PropertyUtil {
 

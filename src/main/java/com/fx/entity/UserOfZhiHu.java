@@ -633,14 +633,14 @@ public class UserOfZhiHu {
                 ", articlescount='" + articlescount + '\'' +
                 ", avatarhue='" + avatarhue + '\'' +
                 ", avatarurl='" + avatarurl + '\'' +
-                ", avatarurltemplate='" + avatarurltemplate + '\'' +
+                ", avatarurltemplate='" + avatarurltemplate.replace("{size}","xll") + '\'' +
                 ", badge='" + badge + '\'' +
                 ", columnscount='" + columnscount + '\'' +
                 ", commercialquestioncount='" + commercialquestioncount + '\'' +
                 ", coverurl='" + coverurl + '\'' +
                 ", description='" + description + '\'' +
-                ", educations='" + educations + '\'' +
-                ", employments='" + employments + '\'' +
+                ", educations='" + educations.replace("\"","") + '\'' +
+                ", employments='" + employments.replace("\"","") + '\'' +
                 ", favoritecount='" + favoritecount + '\'' +
                 ", favoritedcount='" + favoritedcount + '\'' +
                 ", followercount='" + followercount + '\'' +
@@ -665,7 +665,7 @@ public class UserOfZhiHu {
                 ", isforcerenamed='" + isforcerenamed + '\'' +
                 ", isorg='" + isorg + '\'' +
                 ", isprivacyprotected='" + isprivacyprotected + '\'' +
-                ", locations='" + locations + '\'' +
+                ", locations='" + locations.replace("\"","") + '\'' +
                 ", logscount='" + logscount + '\'' +
                 ", messagethreadtoken='" + messagethreadtoken + '\'' +
                 ", mutualfolloweescount='" + mutualfolloweescount + '\'' +

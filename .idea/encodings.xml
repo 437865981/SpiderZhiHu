@@ -2,22 +2,6 @@
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="GBK">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/fx/SpiderZhiiHu/CrawlZhiHu.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/fx/SpiderZhiiHu/RedisSingleton.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/fx/SpiderZhiiHu/ZhiHuUser.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/fx/SpiderZhiiHu/ZhiHuUserDetail.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/fx/entity/ZhiHuUser.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/fx/entity/ZhiHuUserSimple.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/fx/spider/Article.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/fx/spider/ConnUtil.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/fx/spider/Element.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/fx/spider/MySoup_1.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/fx/spider/SplideZhiHu.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/fx/spider/Test.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/fx/spider/ZhiHuThread.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/fx/spider/ZhiHuThreadMain.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/fx/spider/ZhiHuUser.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/fx/spider/testInsert.java" charset="GBK" />
     <file url="PROJECT" charset="GBK" />
   </component>
 </project>

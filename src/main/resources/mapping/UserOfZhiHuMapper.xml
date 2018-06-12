@@ -3,62 +3,62 @@
 <mapper namespace="com.fx.dao.UserOfZhiHuMapper" >
   <resultMap id="BaseResultMap" type="com.fx.entity.UserOfZhiHu" >
     <constructor >
-      <arg column="accountStatus" jdbcType="NVARCHAR" javaType="java.lang.String" />
-      <arg column="allowMessage" jdbcType="NVARCHAR" javaType="java.lang.String" />
-      <arg column="answerCount" jdbcType="NVARCHAR" javaType="java.lang.String" />
-      <arg column="articlesCount" jdbcType="NVARCHAR" javaType="java.lang.String" />
-      <arg column="avatarHue" jdbcType="NVARCHAR" javaType="java.lang.String" />
-      <arg column="avatarUrl" jdbcType="NVARCHAR" javaType="java.lang.String" />
-      <arg column="avatarUrlTemplate" jdbcType="NVARCHAR" javaType="java.lang.String" />
-      <arg column="badge" jdbcType="NVARCHAR" javaType="java.lang.String" />
-      <arg column="columnsCount" jdbcType="NVARCHAR" javaType="java.lang.String" />
-      <arg column="commercialQuestionCount" jdbcType="NVARCHAR" javaType="java.lang.String" />
-      <arg column="coverUrl" jdbcType="NVARCHAR" javaType="java.lang.String" />
-      <arg column="description" jdbcType="NVARCHAR" javaType="java.lang.String" />
-      <arg column="educations" jdbcType="NVARCHAR" javaType="java.lang.String" />
-      <arg column="employments" jdbcType="NVARCHAR" javaType="java.lang.String" />
-      <arg column="favoriteCount" jdbcType="NVARCHAR" javaType="java.lang.String" />
-      <arg column="favoritedCount" jdbcType="NVARCHAR" javaType="java.lang.String" />
-      <arg column="followerCount" jdbcType="NVARCHAR" javaType="java.lang.String" />
-      <arg column="followingColumnsCount" jdbcType="NVARCHAR" javaType="java.lang.String" />
-      <arg column="followingCount" jdbcType="NVARCHAR" javaType="java.lang.String" />
-      <arg column="followingFavlistsCount" jdbcType="NVARCHAR" javaType="java.lang.String" />
-      <arg column="followingQuestionCount" jdbcType="NVARCHAR" javaType="java.lang.String" />
-      <arg column="followingTopicCount" jdbcType="NVARCHAR" javaType="java.lang.String" />
-      <arg column="gender" jdbcType="NVARCHAR" javaType="java.lang.String" />
-      <arg column="headline" jdbcType="NVARCHAR" javaType="java.lang.String" />
-      <arg column="hostedLiveCount" jdbcType="NVARCHAR" javaType="java.lang.String" />
-      <arg column="id" jdbcType="NVARCHAR" javaType="java.lang.String" />
-      <arg column="includedAnswersCount" jdbcType="NVARCHAR" javaType="java.lang.String" />
-      <arg column="includedArticlesCount" jdbcType="NVARCHAR" javaType="java.lang.String" />
-      <arg column="includedText" jdbcType="NVARCHAR" javaType="java.lang.String" />
-      <arg column="isActive" jdbcType="NVARCHAR" javaType="java.lang.String" />
-      <arg column="isAdvertiser" jdbcType="NVARCHAR" javaType="java.lang.String" />
-      <arg column="isBlocked" jdbcType="NVARCHAR" javaType="java.lang.String" />
-      <arg column="isBlocking" jdbcType="NVARCHAR" javaType="java.lang.String" />
-      <arg column="isFollowed" jdbcType="NVARCHAR" javaType="java.lang.String" />
-      <arg column="isFollowing" jdbcType="NVARCHAR" javaType="java.lang.String" />
-      <arg column="isForceRenamed" jdbcType="NVARCHAR" javaType="java.lang.String" />
-      <arg column="isOrg" jdbcType="NVARCHAR" javaType="java.lang.String" />
-      <arg column="isPrivacyProtected" jdbcType="NVARCHAR" javaType="java.lang.String" />
-      <arg column="locations" jdbcType="NVARCHAR" javaType="java.lang.String" />
-      <arg column="logsCount" jdbcType="NVARCHAR" javaType="java.lang.String" />
-      <arg column="messageThreadToken" jdbcType="NVARCHAR" javaType="java.lang.String" />
-      <arg column="mutualFolloweesCount" jdbcType="NVARCHAR" javaType="java.lang.String" />
-      <arg column="name" jdbcType="NVARCHAR" javaType="java.lang.String" />
-      <arg column="participatedLiveCount" jdbcType="NVARCHAR" javaType="java.lang.String" />
-      <arg column="pinsCount" jdbcType="NVARCHAR" javaType="java.lang.String" />
-      <arg column="questionCount" jdbcType="NVARCHAR" javaType="java.lang.String" />
-      <arg column="thankFromCount" jdbcType="NVARCHAR" javaType="java.lang.String" />
-      <arg column="thankToCount" jdbcType="NVARCHAR" javaType="java.lang.String" />
-      <arg column="thankedCount" jdbcType="NVARCHAR" javaType="java.lang.String" />
-      <arg column="type" jdbcType="NVARCHAR" javaType="java.lang.String" />
-      <arg column="url" jdbcType="NVARCHAR" javaType="java.lang.String" />
-      <arg column="urlToken" jdbcType="NVARCHAR" javaType="java.lang.String" />
-      <arg column="userType" jdbcType="NVARCHAR" javaType="java.lang.String" />
-      <arg column="voteFromCount" jdbcType="NVARCHAR" javaType="java.lang.String" />
-      <arg column="voteToCount" jdbcType="NVARCHAR" javaType="java.lang.String" />
-      <arg column="voteupCount" jdbcType="NVARCHAR" javaType="java.lang.String" />
+      <arg column="accountStatus" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="allowMessage" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="answerCount" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="articlesCount" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="avatarHue" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="avatarUrl" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="avatarUrlTemplate" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="badge" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="columnsCount" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="commercialQuestionCount" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="coverUrl" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="description" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="educations" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="employments" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="favoriteCount" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="favoritedCount" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="followerCount" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="followingColumnsCount" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="followingCount" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="followingFavlistsCount" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="followingQuestionCount" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="followingTopicCount" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="gender" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="headline" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="hostedLiveCount" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="id" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="includedAnswersCount" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="includedArticlesCount" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="includedText" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="isActive" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="isAdvertiser" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="isBlocked" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="isBlocking" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="isFollowed" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="isFollowing" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="isForceRenamed" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="isOrg" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="isPrivacyProtected" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="locations" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="logsCount" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="messageThreadToken" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="mutualFolloweesCount" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="name" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="participatedLiveCount" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="pinsCount" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="questionCount" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="thankFromCount" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="thankToCount" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="thankedCount" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="type" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="url" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="urlToken" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="userType" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="voteFromCount" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="voteToCount" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="voteupCount" jdbcType="VARCHAR" javaType="java.lang.String" />
     </constructor>
   </resultMap>
   <sql id="Example_Where_Clause" >
@@ -120,16 +120,16 @@
     </where>
   </sql>
   <sql id="Base_Column_List" >
-    accountStatus, allowMessage, answerCount, articlesCount, avatarHue, avatarUrl, avatarUrlTemplate, 
-    badge, columnsCount, commercialQuestionCount, coverUrl, description, educations, 
-    employments, favoriteCount, favoritedCount, followerCount, followingColumnsCount, 
-    followingCount, followingFavlistsCount, followingQuestionCount, followingTopicCount, 
-    gender, headline, hostedLiveCount, id, includedAnswersCount, includedArticlesCount, 
-    includedText, isActive, isAdvertiser, isBlocked, isBlocking, isFollowed, isFollowing, 
-    isForceRenamed, isOrg, isPrivacyProtected, locations, logsCount, messageThreadToken, 
-    mutualFolloweesCount, name, participatedLiveCount, pinsCount, questionCount, thankFromCount, 
-    thankToCount, thankedCount, type, url, urlToken, userType, voteFromCount, voteToCount, 
-    voteupCount
+    accountStatus, allowMessage, answerCount, articlesCount, avatarHue, avatarUrl, avatarUrlTemplate,
+                   badge, columnsCount, commercialQuestionCount, coverUrl, description, educations,
+                   employments, favoriteCount, favoritedCount, followerCount, followingColumnsCount,
+                   followingCount, followingFavlistsCount, followingQuestionCount, followingTopicCount,
+                   gender, headline, hostedLiveCount, id, includedAnswersCount, includedArticlesCount,
+                   includedText, isActive, isAdvertiser, isBlocked, isBlocking, isFollowed, isFollowing,
+                   isForceRenamed, isOrg, isPrivacyProtected, locations, logsCount, messageThreadToken,
+                   mutualFolloweesCount, name, participatedLiveCount, pinsCount, questionCount, thankFromCount,
+                   thankToCount, thankedCount, type, url, urlToken, userType, voteFromCount, voteToCount,
+                   voteupCount
   </sql>
   <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.fx.entity.UserOfZhiHuExample" >
     select
@@ -152,46 +152,46 @@
     </if>
   </delete>
   <insert id="insert" parameterType="com.fx.entity.UserOfZhiHu" >
-    insert into UserOfZhiHu (accountStatus, allowMessage, answerCount, 
-      articlesCount, avatarHue, avatarUrl, 
-      avatarUrlTemplate, badge, columnsCount, 
-      commercialQuestionCount, coverUrl, description, 
-      educations, employments, favoriteCount, 
-      favoritedCount, followerCount, followingColumnsCount, 
-      followingCount, followingFavlistsCount, 
-      followingQuestionCount, followingTopicCount, 
-      gender, headline, hostedLiveCount, 
-      id, includedAnswersCount, includedArticlesCount, 
-      includedText, isActive, isAdvertiser, 
-      isBlocked, isBlocking, isFollowed, 
-      isFollowing, isForceRenamed, isOrg, 
-      isPrivacyProtected, locations, logsCount, 
-      messageThreadToken, mutualFolloweesCount, 
-      name, participatedLiveCount, pinsCount, 
-      questionCount, thankFromCount, thankToCount, 
-      thankedCount, type, url, 
-      urlToken, userType, voteFromCount, 
-      voteToCount, voteupCount)
-    values (#{accountstatus,jdbcType=NVARCHAR}, #{allowmessage,jdbcType=NVARCHAR}, #{answercount,jdbcType=NVARCHAR}, 
-      #{articlescount,jdbcType=NVARCHAR}, #{avatarhue,jdbcType=NVARCHAR}, #{avatarurl,jdbcType=NVARCHAR}, 
-      #{avatarurltemplate,jdbcType=NVARCHAR}, #{badge,jdbcType=NVARCHAR}, #{columnscount,jdbcType=NVARCHAR}, 
-      #{commercialquestioncount,jdbcType=NVARCHAR}, #{coverurl,jdbcType=NVARCHAR}, #{description,jdbcType=NVARCHAR}, 
-      #{educations,jdbcType=NVARCHAR}, #{employments,jdbcType=NVARCHAR}, #{favoritecount,jdbcType=NVARCHAR}, 
-      #{favoritedcount,jdbcType=NVARCHAR}, #{followercount,jdbcType=NVARCHAR}, #{followingcolumnscount,jdbcType=NVARCHAR}, 
-      #{followingcount,jdbcType=NVARCHAR}, #{followingfavlistscount,jdbcType=NVARCHAR}, 
-      #{followingquestioncount,jdbcType=NVARCHAR}, #{followingtopiccount,jdbcType=NVARCHAR}, 
-      #{gender,jdbcType=NVARCHAR}, #{headline,jdbcType=NVARCHAR}, #{hostedlivecount,jdbcType=NVARCHAR}, 
-      #{id,jdbcType=NVARCHAR}, #{includedanswerscount,jdbcType=NVARCHAR}, #{includedarticlescount,jdbcType=NVARCHAR}, 
-      #{includedtext,jdbcType=NVARCHAR}, #{isactive,jdbcType=NVARCHAR}, #{isadvertiser,jdbcType=NVARCHAR}, 
-      #{isblocked,jdbcType=NVARCHAR}, #{isblocking,jdbcType=NVARCHAR}, #{isfollowed,jdbcType=NVARCHAR}, 
-      #{isfollowing,jdbcType=NVARCHAR}, #{isforcerenamed,jdbcType=NVARCHAR}, #{isorg,jdbcType=NVARCHAR}, 
-      #{isprivacyprotected,jdbcType=NVARCHAR}, #{locations,jdbcType=NVARCHAR}, #{logscount,jdbcType=NVARCHAR}, 
-      #{messagethreadtoken,jdbcType=NVARCHAR}, #{mutualfolloweescount,jdbcType=NVARCHAR}, 
-      #{name,jdbcType=NVARCHAR}, #{participatedlivecount,jdbcType=NVARCHAR}, #{pinscount,jdbcType=NVARCHAR}, 
-      #{questioncount,jdbcType=NVARCHAR}, #{thankfromcount,jdbcType=NVARCHAR}, #{thanktocount,jdbcType=NVARCHAR}, 
-      #{thankedcount,jdbcType=NVARCHAR}, #{type,jdbcType=NVARCHAR}, #{url,jdbcType=NVARCHAR}, 
-      #{urltoken,jdbcType=NVARCHAR}, #{usertype,jdbcType=NVARCHAR}, #{votefromcount,jdbcType=NVARCHAR}, 
-      #{votetocount,jdbcType=NVARCHAR}, #{voteupcount,jdbcType=NVARCHAR})
+    insert into UserOfZhiHu (accountStatus, allowMessage, answerCount,
+                             articlesCount, avatarHue, avatarUrl,
+                             avatarUrlTemplate, badge, columnsCount,
+                             commercialQuestionCount, coverUrl, description,
+                             educations, employments, favoriteCount,
+                             favoritedCount, followerCount, followingColumnsCount,
+                             followingCount, followingFavlistsCount,
+                             followingQuestionCount, followingTopicCount,
+                             gender, headline, hostedLiveCount,
+                             id, includedAnswersCount, includedArticlesCount,
+                             includedText, isActive, isAdvertiser,
+                             isBlocked, isBlocking, isFollowed,
+                             isFollowing, isForceRenamed, isOrg,
+                             isPrivacyProtected, locations, logsCount,
+                             messageThreadToken, mutualFolloweesCount,
+                             name, participatedLiveCount, pinsCount,
+                             questionCount, thankFromCount, thankToCount,
+                             thankedCount, type, url,
+                             urlToken, userType, voteFromCount,
+                             voteToCount, voteupCount)
+    values (#{accountstatus,jdbcType=VARCHAR}, #{allowmessage,jdbcType=VARCHAR}, #{answercount,jdbcType=VARCHAR},
+                                               #{articlescount,jdbcType=VARCHAR}, #{avatarhue,jdbcType=VARCHAR}, #{avatarurl,jdbcType=VARCHAR},
+                                               #{avatarurltemplate,jdbcType=VARCHAR}, #{badge,jdbcType=VARCHAR}, #{columnscount,jdbcType=VARCHAR},
+                                               #{commercialquestioncount,jdbcType=VARCHAR}, #{coverurl,jdbcType=VARCHAR}, #{description,jdbcType=VARCHAR},
+                                                                                                                          #{educations,jdbcType=VARCHAR}, #{employments,jdbcType=VARCHAR}, #{favoritecount,jdbcType=VARCHAR},
+                                                                                                                          #{favoritedcount,jdbcType=VARCHAR}, #{followercount,jdbcType=VARCHAR}, #{followingcolumnscount,jdbcType=VARCHAR},
+                                                                                                                          #{followingcount,jdbcType=VARCHAR}, #{followingfavlistscount,jdbcType=VARCHAR},
+                                                                                                                          #{followingquestioncount,jdbcType=VARCHAR}, #{followingtopiccount,jdbcType=VARCHAR},
+                                                                                                                                                                      #{gender,jdbcType=VARCHAR}, #{headline,jdbcType=VARCHAR}, #{hostedlivecount,jdbcType=VARCHAR},
+                                                                                                                                                                      #{id,jdbcType=VARCHAR}, #{includedanswerscount,jdbcType=VARCHAR}, #{includedarticlescount,jdbcType=VARCHAR},
+                                                                                                                                                                      #{includedtext,jdbcType=VARCHAR}, #{isactive,jdbcType=VARCHAR}, #{isadvertiser,jdbcType=VARCHAR},
+      #{isblocked,jdbcType=VARCHAR}, #{isblocking,jdbcType=VARCHAR}, #{isfollowed,jdbcType=VARCHAR},
+      #{isfollowing,jdbcType=VARCHAR}, #{isforcerenamed,jdbcType=VARCHAR}, #{isorg,jdbcType=VARCHAR},
+      #{isprivacyprotected,jdbcType=VARCHAR}, #{locations,jdbcType=VARCHAR}, #{logscount,jdbcType=VARCHAR},
+      #{messagethreadtoken,jdbcType=VARCHAR}, #{mutualfolloweescount,jdbcType=VARCHAR},
+                                              #{name,jdbcType=VARCHAR}, #{participatedlivecount,jdbcType=VARCHAR}, #{pinscount,jdbcType=VARCHAR},
+                                              #{questioncount,jdbcType=VARCHAR}, #{thankfromcount,jdbcType=VARCHAR}, #{thanktocount,jdbcType=VARCHAR},
+                                              #{thankedcount,jdbcType=VARCHAR}, #{type,jdbcType=VARCHAR}, #{url,jdbcType=VARCHAR},
+            #{urltoken,jdbcType=VARCHAR}, #{usertype,jdbcType=VARCHAR}, #{votefromcount,jdbcType=VARCHAR},
+            #{votetocount,jdbcType=VARCHAR}, #{voteupcount,jdbcType=VARCHAR})
   </insert>
   <insert id="insertSelective" parameterType="com.fx.entity.UserOfZhiHu" >
     insert into UserOfZhiHu
@@ -367,172 +367,172 @@
     </trim>
     <trim prefix="values (" suffix=")" suffixOverrides="," >
       <if test="accountstatus != null" >
-        #{accountstatus,jdbcType=NVARCHAR},
+        #{accountstatus,jdbcType=VARCHAR},
       </if>
       <if test="allowmessage != null" >
-        #{allowmessage,jdbcType=NVARCHAR},
+        #{allowmessage,jdbcType=VARCHAR},
       </if>
       <if test="answercount != null" >
-        #{answercount,jdbcType=NVARCHAR},
+        #{answercount,jdbcType=VARCHAR},
       </if>
       <if test="articlescount != null" >
-        #{articlescount,jdbcType=NVARCHAR},
+        #{articlescount,jdbcType=VARCHAR},
       </if>
       <if test="avatarhue != null" >
-        #{avatarhue,jdbcType=NVARCHAR},
+        #{avatarhue,jdbcType=VARCHAR},
       </if>
       <if test="avatarurl != null" >
-        #{avatarurl,jdbcType=NVARCHAR},
+        #{avatarurl,jdbcType=VARCHAR},
       </if>
       <if test="avatarurltemplate != null" >
-        #{avatarurltemplate,jdbcType=NVARCHAR},
+        #{avatarurltemplate,jdbcType=VARCHAR},
       </if>
       <if test="badge != null" >
-        #{badge,jdbcType=NVARCHAR},
+        #{badge,jdbcType=VARCHAR},
       </if>
       <if test="columnscount != null" >
-        #{columnscount,jdbcType=NVARCHAR},
+        #{columnscount,jdbcType=VARCHAR},
       </if>
       <if test="commercialquestioncount != null" >
-        #{commercialquestioncount,jdbcType=NVARCHAR},
+        #{commercialquestioncount,jdbcType=VARCHAR},
       </if>
       <if test="coverurl != null" >
-        #{coverurl,jdbcType=NVARCHAR},
+        #{coverurl,jdbcType=VARCHAR},
       </if>
       <if test="description != null" >
-        #{description,jdbcType=NVARCHAR},
+        #{description,jdbcType=VARCHAR},
       </if>
       <if test="educations != null" >
-        #{educations,jdbcType=NVARCHAR},
+        #{educations,jdbcType=VARCHAR},
       </if>
       <if test="employments != null" >
-        #{employments,jdbcType=NVARCHAR},
+        #{employments,jdbcType=VARCHAR},
       </if>
       <if test="favoritecount != null" >
-        #{favoritecount,jdbcType=NVARCHAR},
+        #{favoritecount,jdbcType=VARCHAR},
       </if>
       <if test="favoritedcount != null" >
-        #{favoritedcount,jdbcType=NVARCHAR},
+        #{favoritedcount,jdbcType=VARCHAR},
       </if>
       <if test="followercount != null" >
-        #{followercount,jdbcType=NVARCHAR},
+        #{followercount,jdbcType=VARCHAR},
       </if>
       <if test="followingcolumnscount != null" >
-        #{followingcolumnscount,jdbcType=NVARCHAR},
+        #{followingcolumnscount,jdbcType=VARCHAR},
       </if>
       <if test="followingcount != null" >
-        #{followingcount,jdbcType=NVARCHAR},
+        #{followingcount,jdbcType=VARCHAR},
       </if>
       <if test="followingfavlistscount != null" >
-        #{followingfavlistscount,jdbcType=NVARCHAR},
+        #{followingfavlistscount,jdbcType=VARCHAR},
       </if>
       <if test="followingquestioncount != null" >
-        #{followingquestioncount,jdbcType=NVARCHAR},
+        #{followingquestioncount,jdbcType=VARCHAR},
       </if>
       <if test="followingtopiccount != null" >
-        #{followingtopiccount,jdbcType=NVARCHAR},
+        #{followingtopiccount,jdbcType=VARCHAR},
       </if>
       <if test="gender != null" >
-        #{gender,jdbcType=NVARCHAR},
+        #{gender,jdbcType=VARCHAR},
       </if>
       <if test="headline != null" >
-        #{headline,jdbcType=NVARCHAR},
+        #{headline,jdbcType=VARCHAR},
       </if>
       <if test="hostedlivecount != null" >
-        #{hostedlivecount,jdbcType=NVARCHAR},
+        #{hostedlivecount,jdbcType=VARCHAR},
       </if>
       <if test="id != null" >
-        #{id,jdbcType=NVARCHAR},
+        #{id,jdbcType=VARCHAR},
       </if>
       <if test="includedanswerscount != null" >
-        #{includedanswerscount,jdbcType=NVARCHAR},
+        #{includedanswerscount,jdbcType=VARCHAR},
       </if>
       <if test="includedarticlescount != null" >
-        #{includedarticlescount,jdbcType=NVARCHAR},
+        #{includedarticlescount,jdbcType=VARCHAR},
       </if>
       <if test="includedtext != null" >
-        #{includedtext,jdbcType=NVARCHAR},
+        #{includedtext,jdbcType=VARCHAR},
       </if>
       <if test="isactive != null" >
-        #{isactive,jdbcType=NVARCHAR},
+        #{isactive,jdbcType=VARCHAR},
       </if>
       <if test="isadvertiser != null" >
-        #{isadvertiser,jdbcType=NVARCHAR},
+        #{isadvertiser,jdbcType=VARCHAR},
       </if>
       <if test="isblocked != null" >
-        #{isblocked,jdbcType=NVARCHAR},
+        #{isblocked,jdbcType=VARCHAR},
       </if>
       <if test="isblocking != null" >
-        #{isblocking,jdbcType=NVARCHAR},
+        #{isblocking,jdbcType=VARCHAR},
       </if>
       <if test="isfollowed != null" >
-        #{isfollowed,jdbcType=NVARCHAR},
+        #{isfollowed,jdbcType=VARCHAR},
       </if>
       <if test="isfollowing != null" >
-        #{isfollowing,jdbcType=NVARCHAR},
+        #{isfollowing,jdbcType=VARCHAR},
       </if>
       <if test="isforcerenamed != null" >
-        #{isforcerenamed,jdbcType=NVARCHAR},
+        #{isforcerenamed,jdbcType=VARCHAR},
       </if>
       <if test="isorg != null" >
-        #{isorg,jdbcType=NVARCHAR},
+        #{isorg,jdbcType=VARCHAR},
       </if>
       <if test="isprivacyprotected != null" >
-        #{isprivacyprotected,jdbcType=NVARCHAR},
+        #{isprivacyprotected,jdbcType=VARCHAR},
       </if>
       <if test="locations != null" >
-        #{locations,jdbcType=NVARCHAR},
+        #{locations,jdbcType=VARCHAR},
       </if>
       <if test="logscount != null" >
-        #{logscount,jdbcType=NVARCHAR},
+        #{logscount,jdbcType=VARCHAR},
       </if>
       <if test="messagethreadtoken != null" >
-        #{messagethreadtoken,jdbcType=NVARCHAR},
+        #{messagethreadtoken,jdbcType=VARCHAR},
       </if>
       <if test="mutualfolloweescount != null" >
-        #{mutualfolloweescount,jdbcType=NVARCHAR},
+        #{mutualfolloweescount,jdbcType=VARCHAR},
       </if>
       <if test="name != null" >
-        #{name,jdbcType=NVARCHAR},
+        #{name,jdbcType=VARCHAR},
       </if>
       <if test="participatedlivecount != null" >
-        #{participatedlivecount,jdbcType=NVARCHAR},
+        #{participatedlivecount,jdbcType=VARCHAR},
       </if>
       <if test="pinscount != null" >
-        #{pinscount,jdbcType=NVARCHAR},
+        #{pinscount,jdbcType=VARCHAR},
       </if>
       <if test="questioncount != null" >
-        #{questioncount,jdbcType=NVARCHAR},
+        #{questioncount,jdbcType=VARCHAR},
       </if>
       <if test="thankfromcount != null" >
-        #{thankfromcount,jdbcType=NVARCHAR},
+        #{thankfromcount,jdbcType=VARCHAR},
       </if>
       <if test="thanktocount != null" >
-        #{thanktocount,jdbcType=NVARCHAR},
+        #{thanktocount,jdbcType=VARCHAR},
       </if>
       <if test="thankedcount != null" >
-        #{thankedcount,jdbcType=NVARCHAR},
+        #{thankedcount,jdbcType=VARCHAR},
       </if>
       <if test="type != null" >
-        #{type,jdbcType=NVARCHAR},
+        #{type,jdbcType=VARCHAR},
       </if>
       <if test="url != null" >
-        #{url,jdbcType=NVARCHAR},
+        #{url,jdbcType=VARCHAR},
       </if>
       <if test="urltoken != null" >
-        #{urltoken,jdbcType=NVARCHAR},
+        #{urltoken,jdbcType=VARCHAR},
       </if>
       <if test="usertype != null" >
-        #{usertype,jdbcType=NVARCHAR},
+        #{usertype,jdbcType=VARCHAR},
       </if>
       <if test="votefromcount != null" >
-        #{votefromcount,jdbcType=NVARCHAR},
+        #{votefromcount,jdbcType=VARCHAR},
       </if>
       <if test="votetocount != null" >
-        #{votetocount,jdbcType=NVARCHAR},
+        #{votetocount,jdbcType=VARCHAR},
       </if>
       <if test="voteupcount != null" >
-        #{voteupcount,jdbcType=NVARCHAR},
+        #{voteupcount,jdbcType=VARCHAR},
       </if>
     </trim>
   </insert>
@@ -546,172 +546,172 @@
     update UserOfZhiHu
     <set >
       <if test="record.accountstatus != null" >
-        accountStatus = #{record.accountstatus,jdbcType=NVARCHAR},
+        accountStatus = #{record.accountstatus,jdbcType=VARCHAR},
       </if>
       <if test="record.allowmessage != null" >
-        allowMessage = #{record.allowmessage,jdbcType=NVARCHAR},
+        allowMessage = #{record.allowmessage,jdbcType=VARCHAR},
       </if>
       <if test="record.answercount != null" >
-        answerCount = #{record.answercount,jdbcType=NVARCHAR},
+        answerCount = #{record.answercount,jdbcType=VARCHAR},
       </if>
       <if test="record.articlescount != null" >
-        articlesCount = #{record.articlescount,jdbcType=NVARCHAR},
+        articlesCount = #{record.articlescount,jdbcType=VARCHAR},
       </if>
       <if test="record.avatarhue != null" >
-        avatarHue = #{record.avatarhue,jdbcType=NVARCHAR},
+        avatarHue = #{record.avatarhue,jdbcType=VARCHAR},
       </if>
       <if test="record.avatarurl != null" >
-        avatarUrl = #{record.avatarurl,jdbcType=NVARCHAR},
+        avatarUrl = #{record.avatarurl,jdbcType=VARCHAR},
       </if>
       <if test="record.avatarurltemplate != null" >
-        avatarUrlTemplate = #{record.avatarurltemplate,jdbcType=NVARCHAR},
+        avatarUrlTemplate = #{record.avatarurltemplate,jdbcType=VARCHAR},
       </if>
       <if test="record.badge != null" >
-        badge = #{record.badge,jdbcType=NVARCHAR},
+        badge = #{record.badge,jdbcType=VARCHAR},
       </if>
       <if test="record.columnscount != null" >
-        columnsCount = #{record.columnscount,jdbcType=NVARCHAR},
+        columnsCount = #{record.columnscount,jdbcType=VARCHAR},
       </if>
       <if test="record.commercialquestioncount != null" >
-        commercialQuestionCount = #{record.commercialquestioncount,jdbcType=NVARCHAR},
+        commercialQuestionCount = #{record.commercialquestioncount,jdbcType=VARCHAR},
       </if>
       <if test="record.coverurl != null" >
-        coverUrl = #{record.coverurl,jdbcType=NVARCHAR},
+        coverUrl = #{record.coverurl,jdbcType=VARCHAR},
       </if>
       <if test="record.description != null" >
-        description = #{record.description,jdbcType=NVARCHAR},
+        description = #{record.description,jdbcType=VARCHAR},
       </if>
       <if test="record.educations != null" >
-        educations = #{record.educations,jdbcType=NVARCHAR},
+        educations = #{record.educations,jdbcType=VARCHAR},
       </if>
       <if test="record.employments != null" >
-        employments = #{record.employments,jdbcType=NVARCHAR},
+        employments = #{record.employments,jdbcType=VARCHAR},
       </if>
       <if test="record.favoritecount != null" >
-        favoriteCount = #{record.favoritecount,jdbcType=NVARCHAR},
+        favoriteCount = #{record.favoritecount,jdbcType=VARCHAR},
       </if>
       <if test="record.favoritedcount != null" >
-        favoritedCount = #{record.favoritedcount,jdbcType=NVARCHAR},
+        favoritedCount = #{record.favoritedcount,jdbcType=VARCHAR},
       </if>
       <if test="record.followercount != null" >
-        followerCount = #{record.followercount,jdbcType=NVARCHAR},
+        followerCount = #{record.followercount,jdbcType=VARCHAR},
       </if>
       <if test="record.followingcolumnscount != null" >
-        followingColumnsCount = #{record.followingcolumnscount,jdbcType=NVARCHAR},
+        followingColumnsCount = #{record.followingcolumnscount,jdbcType=VARCHAR},
       </if>
       <if test="record.followingcount != null" >
-        followingCount = #{record.followingcount,jdbcType=NVARCHAR},
+        followingCount = #{record.followingcount,jdbcType=VARCHAR},
       </if>
       <if test="record.followingfavlistscount != null" >
-        followingFavlistsCount = #{record.followingfavlistscount,jdbcType=NVARCHAR},
+        followingFavlistsCount = #{record.followingfavlistscount,jdbcType=VARCHAR},
       </if>
       <if test="record.followingquestioncount != null" >
-        followingQuestionCount = #{record.followingquestioncount,jdbcType=NVARCHAR},
+        followingQuestionCount = #{record.followingquestioncount,jdbcType=VARCHAR},
       </if>
       <if test="record.followingtopiccount != null" >
-        followingTopicCount = #{record.followingtopiccount,jdbcType=NVARCHAR},
+        followingTopicCount = #{record.followingtopiccount,jdbcType=VARCHAR},
       </if>
       <if test="record.gender != null" >
-        gender = #{record.gender,jdbcType=NVARCHAR},
+        gender = #{record.gender,jdbcType=VARCHAR},
       </if>
       <if test="record.headline != null" >
-        headline = #{record.headline,jdbcType=NVARCHAR},
+        headline = #{record.headline,jdbcType=VARCHAR},
       </if>
       <if test="record.hostedlivecount != null" >
-        hostedLiveCount = #{record.hostedlivecount,jdbcType=NVARCHAR},
+        hostedLiveCount = #{record.hostedlivecount,jdbcType=VARCHAR},
       </if>
       <if test="record.id != null" >
-        id = #{record.id,jdbcType=NVARCHAR},
+        id = #{record.id,jdbcType=VARCHAR},
       </if>
       <if test="record.includedanswerscount != null" >
-        includedAnswersCount = #{record.includedanswerscount,jdbcType=NVARCHAR},
+        includedAnswersCount = #{record.includedanswerscount,jdbcType=VARCHAR},
       </if>
       <if test="record.includedarticlescount != null" >
-        includedArticlesCount = #{record.includedarticlescount,jdbcType=NVARCHAR},
+        includedArticlesCount = #{record.includedarticlescount,jdbcType=VARCHAR},
       </if>
       <if test="record.includedtext != null" >
-        includedText = #{record.includedtext,jdbcType=NVARCHAR},
+        includedText = #{record.includedtext,jdbcType=VARCHAR},
       </if>
       <if test="record.isactive != null" >
-        isActive = #{record.isactive,jdbcType=NVARCHAR},
+        isActive = #{record.isactive,jdbcType=VARCHAR},
       </if>
       <if test="record.isadvertiser != null" >
-        isAdvertiser = #{record.isadvertiser,jdbcType=NVARCHAR},
+        isAdvertiser = #{record.isadvertiser,jdbcType=VARCHAR},
       </if>
       <if test="record.isblocked != null" >
-        isBlocked = #{record.isblocked,jdbcType=NVARCHAR},
+        isBlocked = #{record.isblocked,jdbcType=VARCHAR},
       </if>
       <if test="record.isblocking != null" >
-        isBlocking = #{record.isblocking,jdbcType=NVARCHAR},
+        isBlocking = #{record.isblocking,jdbcType=VARCHAR},
       </if>
       <if test="record.isfollowed != null" >
-        isFollowed = #{record.isfollowed,jdbcType=NVARCHAR},
+        isFollowed = #{record.isfollowed,jdbcType=VARCHAR},
       </if>
       <if test="record.isfollowing != null" >
-        isFollowing = #{record.isfollowing,jdbcType=NVARCHAR},
+        isFollowing = #{record.isfollowing,jdbcType=VARCHAR},
       </if>
       <if test="record.isforcerenamed != null" >
-        isForceRenamed = #{record.isforcerenamed,jdbcType=NVARCHAR},
+        isForceRenamed = #{record.isforcerenamed,jdbcType=VARCHAR},
       </if>
       <if test="record.isorg != null" >
-        isOrg = #{record.isorg,jdbcType=NVARCHAR},
+        isOrg = #{record.isorg,jdbcType=VARCHAR},
       </if>
       <if test="record.isprivacyprotected != null" >
-        isPrivacyProtected = #{record.isprivacyprotected,jdbcType=NVARCHAR},
+        isPrivacyProtected = #{record.isprivacyprotected,jdbcType=VARCHAR},
       </if>
       <if test="record.locations != null" >
-        locations = #{record.locations,jdbcType=NVARCHAR},
+        locations = #{record.locations,jdbcType=VARCHAR},
       </if>
       <if test="record.logscount != null" >
-        logsCount = #{record.logscount,jdbcType=NVARCHAR},
+        logsCount = #{record.logscount,jdbcType=VARCHAR},
       </if>
       <if test="record.messagethreadtoken != null" >
-        messageThreadToken = #{record.messagethreadtoken,jdbcType=NVARCHAR},
+        messageThreadToken = #{record.messagethreadtoken,jdbcType=VARCHAR},
       </if>
       <if test="record.mutualfolloweescount != null" >
-        mutualFolloweesCount = #{record.mutualfolloweescount,jdbcType=NVARCHAR},
+        mutualFolloweesCount = #{record.mutualfolloweescount,jdbcType=VARCHAR},
       </if>
       <if test="record.name != null" >
-        name = #{record.name,jdbcType=NVARCHAR},
+        name = #{record.name,jdbcType=VARCHAR},
       </if>
       <if test="record.participatedlivecount != null" >
-        participatedLiveCount = #{record.participatedlivecount,jdbcType=NVARCHAR},
+        participatedLiveCount = #{record.participatedlivecount,jdbcType=VARCHAR},
       </if>
       <if test="record.pinscount != null" >
-        pinsCount = #{record.pinscount,jdbcType=NVARCHAR},
+        pinsCount = #{record.pinscount,jdbcType=VARCHAR},
       </if>
       <if test="record.questioncount != null" >
-        questionCount = #{record.questioncount,jdbcType=NVARCHAR},
+        questionCount = #{record.questioncount,jdbcType=VARCHAR},
       </if>
       <if test="record.thankfromcount != null" >
-        thankFromCount = #{record.thankfromcount,jdbcType=NVARCHAR},
+        thankFromCount = #{record.thankfromcount,jdbcType=VARCHAR},
       </if>
       <if test="record.thanktocount != null" >
-        thankToCount = #{record.thanktocount,jdbcType=NVARCHAR},
+        thankToCount = #{record.thanktocount,jdbcType=VARCHAR},
       </if>
       <if test="record.thankedcount != null" >
-        thankedCount = #{record.thankedcount,jdbcType=NVARCHAR},
+        thankedCount = #{record.thankedcount,jdbcType=VARCHAR},
       </if>
       <if test="record.type != null" >
-        type = #{record.type,jdbcType=NVARCHAR},
+        type = #{record.type,jdbcType=VARCHAR},
       </if>
       <if test="record.url != null" >
-        url = #{record.url,jdbcType=NVARCHAR},
+        url = #{record.url,jdbcType=VARCHAR},
       </if>
       <if test="record.urltoken != null" >
-        urlToken = #{record.urltoken,jdbcType=NVARCHAR},
+        urlToken = #{record.urltoken,jdbcType=VARCHAR},
       </if>
       <if test="record.usertype != null" >
-        userType = #{record.usertype,jdbcType=NVARCHAR},
+        userType = #{record.usertype,jdbcType=VARCHAR},
       </if>
       <if test="record.votefromcount != null" >
-        voteFromCount = #{record.votefromcount,jdbcType=NVARCHAR},
+        voteFromCount = #{record.votefromcount,jdbcType=VARCHAR},
       </if>
       <if test="record.votetocount != null" >
-        voteToCount = #{record.votetocount,jdbcType=NVARCHAR},
+        voteToCount = #{record.votetocount,jdbcType=VARCHAR},
       </if>
       <if test="record.voteupcount != null" >
-        voteupCount = #{record.voteupcount,jdbcType=NVARCHAR},
+        voteupCount = #{record.voteupcount,jdbcType=VARCHAR},
       </if>
     </set>
     <if test="_parameter != null" >
@@ -720,62 +720,62 @@
   </update>
   <update id="updateByExample" parameterType="map" >
     update UserOfZhiHu
-    set accountStatus = #{record.accountstatus,jdbcType=NVARCHAR},
-      allowMessage = #{record.allowmessage,jdbcType=NVARCHAR},
-      answerCount = #{record.answercount,jdbcType=NVARCHAR},
-      articlesCount = #{record.articlescount,jdbcType=NVARCHAR},
-      avatarHue = #{record.avatarhue,jdbcType=NVARCHAR},
-      avatarUrl = #{record.avatarurl,jdbcType=NVARCHAR},
-      avatarUrlTemplate = #{record.avatarurltemplate,jdbcType=NVARCHAR},
-      badge = #{record.badge,jdbcType=NVARCHAR},
-      columnsCount = #{record.columnscount,jdbcType=NVARCHAR},
-      commercialQuestionCount = #{record.commercialquestioncount,jdbcType=NVARCHAR},
-      coverUrl = #{record.coverurl,jdbcType=NVARCHAR},
-      description = #{record.description,jdbcType=NVARCHAR},
-      educations = #{record.educations,jdbcType=NVARCHAR},
-      employments = #{record.employments,jdbcType=NVARCHAR},
-      favoriteCount = #{record.favoritecount,jdbcType=NVARCHAR},
-      favoritedCount = #{record.favoritedcount,jdbcType=NVARCHAR},
-      followerCount = #{record.followercount,jdbcType=NVARCHAR},
-      followingColumnsCount = #{record.followingcolumnscount,jdbcType=NVARCHAR},
-      followingCount = #{record.followingcount,jdbcType=NVARCHAR},
-      followingFavlistsCount = #{record.followingfavlistscount,jdbcType=NVARCHAR},
-      followingQuestionCount = #{record.followingquestioncount,jdbcType=NVARCHAR},
-      followingTopicCount = #{record.followingtopiccount,jdbcType=NVARCHAR},
-      gender = #{record.gender,jdbcType=NVARCHAR},
-      headline = #{record.headline,jdbcType=NVARCHAR},
-      hostedLiveCount = #{record.hostedlivecount,jdbcType=NVARCHAR},
-      id = #{record.id,jdbcType=NVARCHAR},
-      includedAnswersCount = #{record.includedanswerscount,jdbcType=NVARCHAR},
-      includedArticlesCount = #{record.includedarticlescount,jdbcType=NVARCHAR},
-      includedText = #{record.includedtext,jdbcType=NVARCHAR},
-      isActive = #{record.isactive,jdbcType=NVARCHAR},
-      isAdvertiser = #{record.isadvertiser,jdbcType=NVARCHAR},
-      isBlocked = #{record.isblocked,jdbcType=NVARCHAR},
-      isBlocking = #{record.isblocking,jdbcType=NVARCHAR},
-      isFollowed = #{record.isfollowed,jdbcType=NVARCHAR},
-      isFollowing = #{record.isfollowing,jdbcType=NVARCHAR},
-      isForceRenamed = #{record.isforcerenamed,jdbcType=NVARCHAR},
-      isOrg = #{record.isorg,jdbcType=NVARCHAR},
-      isPrivacyProtected = #{record.isprivacyprotected,jdbcType=NVARCHAR},
-      locations = #{record.locations,jdbcType=NVARCHAR},
-      logsCount = #{record.logscount,jdbcType=NVARCHAR},
-      messageThreadToken = #{record.messagethreadtoken,jdbcType=NVARCHAR},
-      mutualFolloweesCount = #{record.mutualfolloweescount,jdbcType=NVARCHAR},
-      name = #{record.name,jdbcType=NVARCHAR},
-      participatedLiveCount = #{record.participatedlivecount,jdbcType=NVARCHAR},
-      pinsCount = #{record.pinscount,jdbcType=NVARCHAR},
-      questionCount = #{record.questioncount,jdbcType=NVARCHAR},
-      thankFromCount = #{record.thankfromcount,jdbcType=NVARCHAR},
-      thankToCount = #{record.thanktocount,jdbcType=NVARCHAR},
-      thankedCount = #{record.thankedcount,jdbcType=NVARCHAR},
-      type = #{record.type,jdbcType=NVARCHAR},
-      url = #{record.url,jdbcType=NVARCHAR},
-      urlToken = #{record.urltoken,jdbcType=NVARCHAR},
-      userType = #{record.usertype,jdbcType=NVARCHAR},
-      voteFromCount = #{record.votefromcount,jdbcType=NVARCHAR},
-      voteToCount = #{record.votetocount,jdbcType=NVARCHAR},
-      voteupCount = #{record.voteupcount,jdbcType=NVARCHAR}
+    set accountStatus = #{record.accountstatus,jdbcType=VARCHAR},
+    allowMessage = #{record.allowmessage,jdbcType=VARCHAR},
+    answerCount = #{record.answercount,jdbcType=VARCHAR},
+    articlesCount = #{record.articlescount,jdbcType=VARCHAR},
+    avatarHue = #{record.avatarhue,jdbcType=VARCHAR},
+    avatarUrl = #{record.avatarurl,jdbcType=VARCHAR},
+    avatarUrlTemplate = #{record.avatarurltemplate,jdbcType=VARCHAR},
+    badge = #{record.badge,jdbcType=VARCHAR},
+    columnsCount = #{record.columnscount,jdbcType=VARCHAR},
+    commercialQuestionCount = #{record.commercialquestioncount,jdbcType=VARCHAR},
+    coverUrl = #{record.coverurl,jdbcType=VARCHAR},
+    description = #{record.description,jdbcType=VARCHAR},
+    educations = #{record.educations,jdbcType=VARCHAR},
+    employments = #{record.employments,jdbcType=VARCHAR},
+    favoriteCount = #{record.favoritecount,jdbcType=VARCHAR},
+    favoritedCount = #{record.favoritedcount,jdbcType=VARCHAR},
+    followerCount = #{record.followercount,jdbcType=VARCHAR},
+    followingColumnsCount = #{record.followingcolumnscount,jdbcType=VARCHAR},
+    followingCount = #{record.followingcount,jdbcType=VARCHAR},
+    followingFavlistsCount = #{record.followingfavlistscount,jdbcType=VARCHAR},
+    followingQuestionCount = #{record.followingquestioncount,jdbcType=VARCHAR},
+    followingTopicCount = #{record.followingtopiccount,jdbcType=VARCHAR},
+    gender = #{record.gender,jdbcType=VARCHAR},
+    headline = #{record.headline,jdbcType=VARCHAR},
+    hostedLiveCount = #{record.hostedlivecount,jdbcType=VARCHAR},
+    id = #{record.id,jdbcType=VARCHAR},
+    includedAnswersCount = #{record.includedanswerscount,jdbcType=VARCHAR},
+    includedArticlesCount = #{record.includedarticlescount,jdbcType=VARCHAR},
+    includedText = #{record.includedtext,jdbcType=VARCHAR},
+    isActive = #{record.isactive,jdbcType=VARCHAR},
+    isAdvertiser = #{record.isadvertiser,jdbcType=VARCHAR},
+    isBlocked = #{record.isblocked,jdbcType=VARCHAR},
+    isBlocking = #{record.isblocking,jdbcType=VARCHAR},
+    isFollowed = #{record.isfollowed,jdbcType=VARCHAR},
+    isFollowing = #{record.isfollowing,jdbcType=VARCHAR},
+    isForceRenamed = #{record.isforcerenamed,jdbcType=VARCHAR},
+    isOrg = #{record.isorg,jdbcType=VARCHAR},
+    isPrivacyProtected = #{record.isprivacyprotected,jdbcType=VARCHAR},
+    locations = #{record.locations,jdbcType=VARCHAR},
+    logsCount = #{record.logscount,jdbcType=VARCHAR},
+    messageThreadToken = #{record.messagethreadtoken,jdbcType=VARCHAR},
+    mutualFolloweesCount = #{record.mutualfolloweescount,jdbcType=VARCHAR},
+    name = #{record.name,jdbcType=VARCHAR},
+    participatedLiveCount = #{record.participatedlivecount,jdbcType=VARCHAR},
+    pinsCount = #{record.pinscount,jdbcType=VARCHAR},
+    questionCount = #{record.questioncount,jdbcType=VARCHAR},
+    thankFromCount = #{record.thankfromcount,jdbcType=VARCHAR},
+    thankToCount = #{record.thanktocount,jdbcType=VARCHAR},
+    thankedCount = #{record.thankedcount,jdbcType=VARCHAR},
+    type = #{record.type,jdbcType=VARCHAR},
+    url = #{record.url,jdbcType=VARCHAR},
+    urlToken = #{record.urltoken,jdbcType=VARCHAR},
+    userType = #{record.usertype,jdbcType=VARCHAR},
+    voteFromCount = #{record.votefromcount,jdbcType=VARCHAR},
+    voteToCount = #{record.votetocount,jdbcType=VARCHAR},
+    voteupCount = #{record.voteupcount,jdbcType=VARCHAR}
     <if test="_parameter != null" >
       <include refid="Update_By_Example_Where_Clause" />
     </if>

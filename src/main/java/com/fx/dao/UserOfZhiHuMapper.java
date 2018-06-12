@@ -4,7 +4,9 @@ import com.fx.entity.UserOfZhiHu;
 import com.fx.entity.UserOfZhiHuExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
+import org.springframework.stereotype.Component;
 
+@Component
 public interface UserOfZhiHuMapper {
     int countByExample(UserOfZhiHuExample example);
 
